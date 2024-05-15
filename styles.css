@@ -1,0 +1,42 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    height: 50%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.4807692307692307) 0%, rgba(0,0,0,0.42307692307692313) 100%);
+    border-radius: 25px;
+    font-size: xx-large;
+    box-shadow: 2px 2px 15px white inset;
+}
+
+h1 {
+    text-shadow: 1px 1px 16px white;
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+.btn {
+    margin: 7px;
+}
+
+
+
